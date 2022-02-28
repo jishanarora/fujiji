@@ -1,6 +1,6 @@
 const config = {
   APP_URL: process.env.APP_URL,
-  PORT: process.env.PORT
+  PORT: process.env.PORT,
 };
 
 const db = {
