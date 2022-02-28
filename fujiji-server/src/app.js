@@ -21,7 +21,7 @@ const port = process.env.PORT || 3000;
 
 app.get('/', async (req, res) => {
   const response = {
-    message: 'Hello from the server!!!',
+    message: 'Hello from the server!!! I got updated and I think I should work fine now',
   };
 
   // const [allUser] = await sequelize.query('SELECT * FROM fujiji_user');
