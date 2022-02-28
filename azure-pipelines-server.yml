@@ -26,5 +26,5 @@ steps:
       repository: "Azure Container Registry"
       command: "buildAndPush"
       Dockerfile: "**/Dockerfile.prod"
-      tags: "prod"
+      tags: $(Build.BuildNumber)
     displayName: "Docker image build"
